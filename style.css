@@ -1,6 +1,5 @@
 h1 {
     font-size: 25px;
-    font-family: 'Cooper';
 }
 
 body {
@@ -73,32 +72,4 @@ img {
 td {
     border: 5px ridge #000;
     padding: 0;
-}
-
-details {
-    overflow: hidden;
-}
-
-details[open] > #dc-div {
-    animation: expand 0.3s ease-in-out forwards;
-}
-
-details:not([open]) > #dc-div {
-    animation: collapse 0.3s ease-in-out forwards;
-}
-
-@keyframes expand {
-    from {
-        height: 0;
-    } to {
-        height: auto;
-    }
-}
-
-@keyframes collapse {
-    from {
-        height: auto;
-    } to {
-        height: 0;
-    }
 }
