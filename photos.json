@@ -1,0 +1,26 @@
+{
+    "line1": {
+        "photo1": {
+            "image": "./photos/server.jpg",
+            "desc": "CGI Data Center"
+        },
+        "photo2": {
+            "image": "./photos/vent.jpg",
+            "desc": "Server cooling system"
+        },
+        "photo3": {
+            "image": "./photos/gas.jpg",
+            "desc": "Anti-Fire Gas tanks"
+        }
+    },
+    "line2": {
+        "photo1": {
+            "image": "./photos/battery.jpg",
+            "desc": "Backup batteries"
+        },
+        "photo2": {
+            "image": "./photos/sign.jpg",
+            "desc": "Evacuation sign"
+        }
+    }
+}

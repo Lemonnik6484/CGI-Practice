@@ -1,0 +1,104 @@
+h1 {
+    font-size: 25px;
+    font-family: 'Cooper';
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(110deg, #e8e8e8, #befebe);
+    font-family: "Funnel Display", serif;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: rgb(240, 25, 25);
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    background-color: #000;
+    width: 98.8vw;
+    height: 2px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #bebebe;
+    width: 98.9vw;
+}
+
+footer {
+    background-color: #707070;
+    width: 98.9vw;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+}
+
+#attribution {
+    margin-right: 20px;
+}
+
+iframe {
+    width: 65vw;
+    height: 500px;
+    margin: 5px;
+    border-style: solid;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-bottom: 5px ridge #000;
+}
+
+.center, tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    border: 5px ridge #000;
+    padding: 0;
+}
+
+details {
+    overflow: hidden;
+}
+
+details[open] > #dc-div {
+    animation: expand 0.3s ease-in-out forwards;
+}
+
+details:not([open]) > #dc-div {
+    animation: collapse 0.3s ease-in-out forwards;
+}
+
+@keyframes expand {
+    from {
+        height: 0;
+    } to {
+        height: auto;
+    }
+}
+
+@keyframes collapse {
+    from {
+        height: auto;
+    } to {
+        height: 0;
+    }
+}
