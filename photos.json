@@ -2,11 +2,11 @@
     "line1": {
         "photo1": {
             "image": "./photos/server.jpg",
-            "desc": "CGI Data Center"
+            "desc": "Servers"
         },
         "photo2": {
             "image": "./photos/vent.jpg",
-            "desc": "Server cooling system"
+            "desc": "Cooling system"
         },
         "photo3": {
             "image": "./photos/gas.jpg",
